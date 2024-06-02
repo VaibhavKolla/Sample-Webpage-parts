@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text-section">
+            <h2 class="award">AWARD WINNING</h2>
+            <h1 class="title">DIGITAL MARKETING AGENCY</h1>
+            <p class="description">Morbi sed lacus nec risus finibus feugiat at fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus. Morbi sed lacus nec risus finibus feugiat at fermentum.</p>
+            <button class="contact-button">CONTACT US</button>
+        </div>
+        <div class="image-section">
+            <img src="https://images.pexels.com/photos/7310130/pexels-photo-7310130.jpeg" alt="Woman in red hat wrapping candles">
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Talk to us</h2>
+            <form action="https://getform.io/f/YOUR-UNIQUE-ENDPOINT" method="POST">
+                <label for="email">Work email*</label>
+                <input type="email" id="email" name="email" required>
+                
+                <div class="name-container">
+                    <div class="name-field">
+                        <label for="firstName">First name*</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="name-field">
+                        <label for="lastName">Last name*</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+                
+                <label class="checkbox-container">
+                    <input type="checkbox" name="consent" required>
+                    <span class="checkmark"></span>
+                    I agree to the terms and conditions, and provide consent to send me communication.
+                </label>
+                
+                <button type="submit" class="contact-button">Contact Us</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
